@@ -6,7 +6,7 @@
 |------------------|----------|--------|
 | **O-Health Internal Dashboard**<br>Build an internal dashboard to monitor system health and operational activity.<br>Include issue tracking, task assignments, priorities, and status updates. | High | 🔵 In Progress |
 | **Migrate SMS Service from Twilio to Fast2SMS**<br>Replace the existing Twilio SMS integration with Fast2SMS.<br>Update the configuration and verify SMS delivery across all relevant workflows. | High | 🔵 In Progress |
-| **Instant Question Load After Mic Stops**<br>Redesign the workflow to load the instant question 0.5 seconds after the microphone stops.<br>Handle processing in the background.<br>Deploy and test on DGX. | High | ⚪ Yet to Start |
+| **Instant Question Load After Mic Stops**<br>Redesign the workflow to load the instant question 0.5 seconds after the microphone stops.<br>Handle processing in the background.<br>Deploy and test on DGX & Deploy and test on PROD | High | 🔵 In Progress |
 | **DPDP Certification**<br>Upload the required evidence.<br>Make the necessary minor adjustments in the relevant areas, addressing each requirement one by one. | High | ⚪ Yet to Start |
 | **Application-Wide Event Logging — Web and Mobile**<br>Implement comprehensive logging across the entire web and mobile applications.<br>Capture every event, including minor interactions, user actions, system events, and errors.<br>Improve log clarity and consistency to simplify debugging and trace events back to their source. | High | ⚪ Yet to Start |
 | **Yashoda Integration — Follow-up and Support**<br>Follow up on the Yashoda integration and coordinate pending activities.<br>Provide any support required to resolve issues and complete the integration. | High | ⚪ Yet to Start |
