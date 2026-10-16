@@ -19,6 +19,8 @@
 | **Dockerize the Entire Codebase**<br>Containerize all application components and dependencies.<br>Enable easy one-click deployment.<br>Support scalability across deployment environments. | High | — | 🟠 On Hold | — | — | Requires significant capacity |
 | **Instant Question Load After Mic Stops**<br>Redesign the workflow to load the instant question 0.5 seconds after the microphone stops.<br>Handle processing in the background.<br>Deploy and test on DGX and PROD. | High | Unplanned | 🟢 Completed | 10-10-2026 | 10-10-2026 | — |
 | **Server Migration and Deployment to Nebius**<br>Migrate the server to Nebius following the IP address change and unexpected infrastructure changes.<br>Update configurations and deploy the services required to support the Android APK, Raspberry Pi (RPi), and web application. | High | Unplanned | 🟢 Completed | 12-10-2026 | 12-10-2026 | Production and QA environments experienced downtime due to IP address changes. Nebius was subsequently rebuilt using a setup similar |
+| **Fix Responses Shifted by One Question in Reports**<br>Fix the bug where responses were shifted by one question in the report.<br>Ensure each response is displayed against the correct question. | High | Unplanned | 🟢 Completed | 16-10-2026 | 16-10-2026 | Awaiting test results |
+
 
 ## Siddanth
 
