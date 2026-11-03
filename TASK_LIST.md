@@ -2,18 +2,10 @@
 
 ## Pramod
 
-### ✅ Completed — Last 10 Days (21-10-2026 to 30-10-2026)
+### ✅ Completed — Last 10 Days (25-10-2026 to 03-11-2026)
 
 | Completed Date | Task Description | Activity Type | Priority | Delivery Type | Status | Target Date | Remarks / Blockers |
 |----------------|------------------|---------------|----------|---------------|--------|-------------|--------------------|
-| 22-10-2026 | **MIMS Mandya Site Visit**<br>Completed an on-site visit to MIMS Mandya on 21 and 22 October 2026. | Coordination | High | Unplanned | 🟢 Completed | 22-10-2026 | Two-day site visit completed. |
-| 23-10-2026 | **Migrate SMS Service from Twilio to Fast2SMS**<br>Replaced the Twilio SMS integration with Fast2SMS and updated the configuration. | Development | High | Planned | 🟢 Completed | 20-10-2026 | Completed 3 days after the target date due to a dependency on DLT approval from Jio/Fast2SMS. |
-| 23-10-2026 | **Unit Testing — SMS Service Migration to Fast2SMS**<br>Tested SMS delivery across all relevant workflows. | Unit Testing | High | Planned | 🟢 Completed | 20-10-2026 | SMS delivery verified across all relevant workflows. |
-| 24-10-2026 | **Background Audio Download — Standalone APK**<br>Built a standalone APK to implement and validate background audio download. | Development | High | Unplanned | 🟢 Completed | 24-10-2026 | Shared with Koti for verification. Integrated into the production app on 30-10-2026. |
-| 24-10-2026 | **Unit Testing — Background Audio Download Standalone APK**<br>Tested background audio download in the standalone APK. | Unit Testing | High | Unplanned | 🟢 Completed | 24-10-2026 | Unit testing completed. |
-| 24-10-2026 | **Web — Patient Onboarding UI/UX Improvements**<br>Improved the UI/UX of the patient onboarding flow for all tenants. | Development | Medium | Unplanned | 🟢 Completed | 24-10-2026 | Deployed to production for all tenants. |
-| 24-10-2026 | **Unit Testing — Web Patient Onboarding UI/UX**<br>Tested the updated patient onboarding flow across tenants. | Unit Testing | Medium | Unplanned | 🟢 Completed | 24-10-2026 | Unit testing completed. |
-| 24-10-2026 | **Buffer Assessment Flow — Question Trigger Delay (RCA)**<br>Investigated intermittent delays in question triggering and traced them to duplicate, mismatched entries in the question corpus that triggered dynamic TTS question generation. | Defect Resolution | High | Unplanned | 🟢 Completed | 24-10-2026 | Root cause identified and handed over to Arjun for the corpus fix. |
 | 26-10-2026 | **Web — UK Tenant Enablement for Singhal**<br>Enabled the UK tenant on the web application for Singhal. | Development | High | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed on 26-10-2026. |
 | 26-10-2026 | **Unit Testing — Web UK Tenant for Singhal**<br>Unit-tested the key flows, including password reset and acknowledgment. | Unit Testing | High | Unplanned | 🟢 Completed | 26-10-2026 | Password reset and acknowledgment flows verified. |
 | 26-10-2026 | **DEB — Web UI/UX Changes for Non-Vaad Packages**<br>Applied the web UI/UX changes to the non-Vaad Debian packages (non-RPi and offline versions). | Development | Medium | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed on 30-10-2026. |
@@ -35,7 +27,7 @@
 | 30-10-2026 | **DEB (Tauri / RPi) — Offline Audio Download Screen**<br>Aligned the offline audio download screen and controls with the mobile application, including pause/resume support. | Development | Medium | Unplanned | 🟢 Completed | 30-10-2026 | Offline audio downloads behave the same on the kiosk and on mobile. |
 | 30-10-2026 | **DEB (Tauri / RPi) — Automatic Version Bump on Build**<br>Updated the build workflow to increment the version on every build and commit it back to Git. | Development | Medium | Unplanned | 🟢 Completed | 30-10-2026 | Version numbers are incremented automatically on every build. |
 | 30-10-2026 | **Unit Testing — DEB (Tauri / RPi) Kiosk Features**<br>Unit-tested In-App Update, Tenant Switch, Kiosk Password Protection, Exit Button and UI Updates, Offline Audio Download Screen and Automatic Version Bump. | Unit Testing | High | Unplanned | 🟢 Completed | 30-10-2026 | All six features passed unit testing and moved from Unit Testing to Completed. |
-| 30-10-2026 | **Direct VAAD Integration — Version 1 (RPi-Controlled Mic)**<br>Developed, deployed and released the direct VAAD application:<br>• Microphone control moved to the Raspberry Pi, which now decides when the mic turns on and off.<br>• The kiosk records each response with a short audio buffer before and after. | Development | High | Unplanned | 🟢 Completed | 30-10-2026 | Released as Debian app v5.0.2. Backend and kiosk changes pushed; specification shared with the RPi team. Field testing tracked under Pending. |
+| 30-10-2026 | **Direct VAAD Integration — Version 1 (RPi-Controlled Mic)**<br>Developed, deployed and released the direct VAAD application:<br>• Microphone control moved to the Raspberry Pi, which now decides when the mic turns on and off.<br>• The kiosk records each response with a short audio buffer before and after. | Development | High | Unplanned | 🟢 Completed | 30-10-2026 | Released as Debian app v5.0.2. Backend and kiosk changes pushed; specification shared with the RPi team. |
 | 30-10-2026 | **Unit Testing — Direct VAAD Integration Version 1 (RPi-Controlled Mic)**<br>Ran several rounds of internal testing, covering mic on/off control from the RPi and response recording with pre- and post-audio buffers. | Unit Testing | High | Unplanned | 🟢 Completed | 30-10-2026 | Internal testing completed before release. |
 | 30-10-2026 | **Faster Question Loading on VAAD Kiosks**<br>Added the buffered bridge-question flow to the VAAD kiosk branches, so the next question loads without waiting for transcription. | Development | High | Unplanned | 🟢 Completed | 30-10-2026 | Live on the VAAD kiosk branches. |
 | 30-10-2026 | **Unit Testing — Faster Question Loading on VAAD Kiosks**<br>Tested the buffered bridge-question flow on the VAAD kiosk branches. | Unit Testing | High | Unplanned | 🟢 Completed | 30-10-2026 | Unit testing completed. |
@@ -50,6 +42,20 @@
 | 30-10-2026 | **Kiosk Bug Fixes**<br>• Mic not responding to RPi signals.<br>• Device ID missing on Reset Assessment.<br>• Question audio still playing after a reset or when the Settings menu opens. | Defect Resolution | High | Unplanned | 🟢 Completed | 30-10-2026 | Fixes pushed to all kiosk branches. |
 | 30-10-2026 | **Tauri Kiosk Branches Synced (All 5)**<br>Merged the latest changes into all five kiosk branches. Each branch keeps its own assessment flow and offline configuration. | Release & Deployment | High | Unplanned | 🟢 Completed | 30-10-2026 | All five branches updated and pushed. |
 | 30-10-2026 | **Unit Testing — Tauri Kiosk Branches Sync**<br>Tested all five branches after the merge, confirming each kept its own assessment flow and offline configuration. | Unit Testing | High | Unplanned | 🟢 Completed | 30-10-2026 | Unit testing completed. |
+| 02-11-2026 | **Direct VAAD Integration — Version 2 (TTS Signal Transfer)**<br>Transferred the new text-to-speech (TTS) signals to Direct VAAD, delivering the second enhanced version of the application. | Development | High | Unplanned | 🟢 Completed | 02-11-2026 | Deployed as Debian package v5.0.3. Field testing tracked under Pending. |
+| 02-11-2026 | **Unit Testing — Direct VAAD Integration Version 2 (TTS Signal Transfer)**<br>Tested the new TTS signal transfer to Direct VAAD. | Unit Testing | High | Unplanned | 🟢 Completed | 02-11-2026 | Unit testing completed. |
+| 02-11-2026 | **Direct VAAD — Debian Package v5.0.3 Deployment**<br>Deployed Debian package v5.0.3 with Direct VAAD Version 2. | Release & Deployment | High | Unplanned | 🟢 Completed | 02-11-2026 | Debian package v5.0.3 deployed. |
+| 02-11-2026 | **Unit Testing — Direct VAAD Debian Package v5.0.3 Deployment**<br>Tested the deployed v5.0.3 package. | Unit Testing | High | Unplanned | 🟢 Completed | 02-11-2026 | Unit testing completed. |
+| 02-11-2026 | **New Audio Corpus — Synchronization and Deployment**<br>Synchronized the updated audio corpus and deployed the changes. | Release & Deployment | High | Unplanned | 🟢 Completed | 02-11-2026 | Updated audio corpus synchronized and deployed. |
+| 02-11-2026 | **Unit Testing — New Audio Corpus Synchronization and Deployment**<br>Tested the synchronized audio corpus after deployment. | Unit Testing | High | Unplanned | 🟢 Completed | 02-11-2026 | Unit testing completed. |
+| 03-11-2026 | **O-Health Website Improvements (v1.0.9)**<br>**Header and navigation**<br>• Simplified the header to the logo and an "Enquire Now" button.<br>• Fixed the header gap on iPhones.<br>• "Enquire Now" now opens an enquiry form.<br>• Fixed the "How It Works" link.<br>**Forms**<br>• Added a "General enquiry" option and clearer labels to the request forms.<br>• Removed the OTP wording from the mobile number field.<br>**Content and layout**<br>• Moved the LinkedIn icon to the footer's Connect column.<br>• Added "Coming soon" notes for About Us, Contact Us, App Store and Google Play.<br>• Replaced the Edge-Enabled AI collage with a six-photo slideshow.<br>• Updated Language Distribution to show Kannada and Dogri.<br>• Fixed the missing browser tab icon.<br>**Patient privacy**<br>• Applied a light blur to patients' faces in photos.<br>• Hid a patient record that was visible in a photo.<br>**Security**<br>• Blocked right-click, Inspect, View Source and image saving on the live site.<br>• Added server security settings.<br>**Performance and responsiveness**<br>• Made the site work well on phones, tablets and desktops.<br>• Removed unused code and images so the site loads faster. | Development | High | Unplanned | 🟢 Completed | 03-11-2026 | Deployed as website v1.0.9. |
+| 03-11-2026 | **Unit Testing — O-Health Website Improvements (v1.0.9)**<br>Tested the website changes before the v1.0.9 release. | Unit Testing | High | Unplanned | 🟢 Completed | 03-11-2026 | Testing completed before deployment. |
+| 03-11-2026 | **GitHub Repository Cleanup**<br>Removed unused assets, obsolete code and unnecessary code references from the GitHub repositories. | Development | Medium | Unplanned | 🟢 Completed | 03-11-2026 | GitHub repositories cleaned up. |
+| 03-11-2026 | **Unit Testing — GitHub Repository Cleanup**<br>Tested the applications after the repository cleanup to confirm there were no regressions. | Unit Testing | Medium | Unplanned | 🟢 Completed | 03-11-2026 | Unit testing completed. |
+| 03-11-2026 | **O-Health Website — v1.0.9 Deployment**<br>Deployed website version 1.0.9 to the live site. | Release & Deployment | High | Unplanned | 🟢 Completed | 03-11-2026 | Website v1.0.9 is live. |
+| 03-11-2026 | **Unit Testing — O-Health Website v1.0.9 Deployment**<br>Verified the live site after the v1.0.9 deployment. | Unit Testing | High | Unplanned | 🟢 Completed | 03-11-2026 | Unit testing completed. |
+| 03-11-2026 | **Yashoda Kiosk — Application Updater Configuration**<br>Configured the new application on the Yashoda kiosks to enable the in-app updater. | Release & Deployment | High | Unplanned | 🟢 Completed | 03-11-2026 | Kiosks can be updated seamlessly through the app updater from the next release onward. |
+| 03-11-2026 | **Unit Testing — Yashoda Kiosk Application Updater Configuration**<br>Tested the updater configuration on the Yashoda kiosks. | Unit Testing | High | Unplanned | 🟢 Completed | 03-11-2026 | Unit testing completed. |
 
 ---
 
@@ -68,7 +74,7 @@
 | Target Date | Task Description | Activity Type | Priority | Delivery Type | Status | Remarks / Blockers |
 |-------------|------------------|---------------|----------|---------------|--------|--------------------|
 | — | **Yashoda Integration — Final Testing**<br>Run the final testing once the integration is complete. | Testing | High | Planned | ⏳ Pending | Dependency: integration completion by Akhil. Our deliverables were completed on 05-10-2026. |
-| — | **Direct VAAD Integration Version 1 (Debian v5.0.2) — Field Testing**<br>Validate the deployed direct VAAD application in the field. | Testing | High | Unplanned | ⏳ Pending | Version 1 (Debian v5.0.2) was developed, tested internally and released on 30-10-2026. Waiting for field testing results. |
+| — | **Direct VAAD Integration (Debian v5.0.3) — Field Testing**<br>Validate the deployed direct VAAD application in the field. | Testing | High | Unplanned | ⏳ Pending | Version 2 (Debian v5.0.3) was developed, unit-tested and deployed on 01-11-2026. Waiting for field testing results. |
 
 #### On Hold
 
@@ -92,7 +98,7 @@
 
 ---
 
-### 🗂️ Completed — Earlier (before 21-10-2026)
+### 🗂️ Completed — Earlier (before 25-10-2026)
 
 | Completed Date | Task Description | Activity Type | Priority | Delivery Type | Status | Target Date | Remarks / Blockers |
 |----------------|------------------|---------------|----------|---------------|--------|-------------|--------------------|
@@ -113,26 +119,16 @@
 | 19-10-2026 | **Unit Testing — DEB Packages for Defense and Yashoda**<br>Tested the installed packages and desktop shortcuts. | Unit Testing | High | Unplanned | 🟢 Completed | 19-10-2026 | Unit testing completed. |
 | 19-10-2026 | **Mobile APK Release**<br>Standard APK: v4.24.0<br>RPI APK: v4.16.11 | Release & Deployment | High | Unplanned | 🟢 Completed | 19-10-2026 | Released. |
 | 19-10-2026 | **Unit Testing — Mobile APK Release (v4.24.0 / v4.16.11)**<br>Tested the Standard and RPI release builds. | Unit Testing | High | Unplanned | 🟢 Completed | 19-10-2026 | Unit testing completed. |
+| 22-10-2026 | **MIMS Mandya — Integration Planning and Software/Hardware Bug Fixes**<br>• Planned the integration at MIMS Mandya (21–22 October 2026).<br>• Identified and resolved software and hardware issues. | Defect Resolution | High | Unplanned | 🟢 Completed | 22-10-2026 | Integration planning completed and software/hardware issues resolved. |
+| 23-10-2026 | **Migrate SMS Service from Twilio to Fast2SMS**<br>Replaced the Twilio SMS integration with Fast2SMS and updated the configuration. | Development | High | Planned | 🟢 Completed | 20-10-2026 | Completed 3 days after the target date due to a dependency on DLT approval from Jio/Fast2SMS. |
+| 23-10-2026 | **Unit Testing — SMS Service Migration to Fast2SMS**<br>Tested SMS delivery across all relevant workflows. | Unit Testing | High | Planned | 🟢 Completed | 20-10-2026 | SMS delivery verified across all relevant workflows. |
+| 24-10-2026 | **Background Audio Download — Standalone APK**<br>Built a standalone APK to implement and validate background audio download. | Development | High | Unplanned | 🟢 Completed | 24-10-2026 | Shared with Koti for verification. Integrated into the production app on 30-10-2026. |
+| 24-10-2026 | **Unit Testing — Background Audio Download Standalone APK**<br>Tested background audio download in the standalone APK. | Unit Testing | High | Unplanned | 🟢 Completed | 24-10-2026 | Unit testing completed. |
+| 24-10-2026 | **Web — Patient Onboarding UI/UX Improvements**<br>Improved the UI/UX of the patient onboarding flow for all tenants. | Development | Medium | Unplanned | 🟢 Completed | 24-10-2026 | Deployed to production for all tenants. |
+| 24-10-2026 | **Unit Testing — Web Patient Onboarding UI/UX**<br>Tested the updated patient onboarding flow across tenants. | Unit Testing | Medium | Unplanned | 🟢 Completed | 24-10-2026 | Unit testing completed. |
+| 24-10-2026 | **Buffer Assessment Flow — Question Trigger Delay (RCA)**<br>Investigated intermittent delays in question triggering and traced them to duplicate, mismatched entries in the question corpus that triggered dynamic TTS question generation. | Defect Resolution | High | Unplanned | 🟢 Completed | 24-10-2026 | Root cause identified and handed over to Arjun for the corpus fix. |
 
 
 ## Siddanth
 
 [View Siddanth's Task Tracker](https://github.com/dp-pramod/TASK_LIST2#readme)
-
----
-
-**Priority:** High · Medium · Low
-
-**Delivery Type:** Planned · Unplanned
-
-**Activity Type:** Development · Unit Testing · Testing · Defect Resolution · Infrastructure · Release & Deployment · Documentation & Compliance · Coordination
-
-**Status:** 🟢 Completed · 🟡 Unit Testing · 🟣 Ready to Deploy · 🔵 In Progress · ⏳ Pending · 🟠 On Hold · ⚪ Yet to Start
-
-**Unit Testing Rule:** Every Development and Release & Deployment task has a matching Unit Testing task, listed directly below it.
-
-**Last 10 Days:** Tasks completed in the 10 days up to and including today. Each day, tasks older than that move to Completed — Earlier.
-
-**Date Format:** DD-MM-YYYY
-
-**—:** Not specified
