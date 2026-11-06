@@ -2,18 +2,10 @@
 
 ## Pramod
 
-### ✅ Completed — Last 10 Days (25-10-2026 to 03-11-2026)
+### ✅ Completed — Last 10 Days (28-10-2026 to 06-11-2026)
 
 | Completed Date | Task Description | Activity Type | Priority | Delivery Type | Status | Target Date | Remarks / Blockers |
 |----------------|------------------|---------------|----------|---------------|--------|-------------|--------------------|
-| 26-10-2026 | **Web Application — UK Tenant Enablement (Singhal)**<br>Enabled the UK tenant on the web application for Singhal. | Development | High | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed on 26-10-2026. |
-| 26-10-2026 | **Unit Testing — Web Application UK Tenant Enablement (Singhal)**<br>Validated the key user flows, including password reset and acknowledgment. | Unit Testing | High | Unplanned | 🟢 Completed | 26-10-2026 | Password reset and acknowledgment flows verified. |
-| 26-10-2026 | **DEB — Web UI/UX Alignment for Non-VAAD Packages**<br>Applied the web UI/UX changes to the non-VAAD Debian packages (non-RPi and offline variants). | Development | Medium | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed on 30-10-2026. |
-| 26-10-2026 | **Mobile APK — Offline Background Audio Playback**<br>Implemented background audio playback in offline mode for both the RPi and non-RPi APKs. | Development | High | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed on 30-10-2026. |
-| 26-10-2026 | **DGX Offline Server — Audio Synchronization (V23 and V24)**<br>Synchronized the V23 and V24 audio files and uploaded the missing audio assets to the DGX offline server. | Infrastructure | High | Unplanned | 🟢 Completed | 26-10-2026 | V23 and V24 audio assets are now complete on the offline server. |
-| 26-10-2026 | **Mobile APK — Release**<br>• Standard APK: v4.25.0<br>• RPi APK: v4.16.12 | Release & Deployment | High | Unplanned | 🟢 Completed | 26-10-2026 | Released. |
-| 26-10-2026 | **Unit Testing — Mobile APK Release (v4.25.0 / v4.16.12)**<br>Validated the Standard and RPi release builds. | Unit Testing | High | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed. |
-| 27-10-2026 | **Website — DPDPA Compliance Updates**<br>Updated the Privacy Policy, Terms of Service and Cookie Management on the website in line with DPDPA requirements. | Documentation & Compliance | High | Planned | 🟢 Completed | 27-10-2026 | The website is now aligned with DPDPA requirements. |
 | 28-10-2026 | **DEB — Yashoda Kiosk Enhancements and Defect Fixes**<br>• Animation: dismisses on a tap anywhere on the screen.<br>• Zoom: disabled to prevent accidental zooming from single-touch input.<br>• Keyboard: replaced the Clear key with Enter; the keyboard dismisses on a tap anywhere on the screen.<br>• Vitals: previously recorded values are cleared before new readings are fetched, consistent with the mobile application.<br>• Offline Audio and Device Selection: delivered both screens, with background downloads and real-time download status. | Development | High | Unplanned | 🟢 Completed | 28-10-2026 | Deployed to the Yashoda kiosks on 28-10-2026. |
 | 28-10-2026 | **Unit Testing — DEB Yashoda Kiosk Enhancements and Defect Fixes**<br>Validated the animation, zoom, keyboard, vitals, offline audio and device selection changes. | Unit Testing | High | Unplanned | 🟢 Completed | 28-10-2026 | Unit testing completed. |
 | 28-10-2026 | **Backend — Repository Code Cleanup**<br>Cleaned up and refactored the backend repository codebase. | Development | Medium | Unplanned | 🟢 Completed | 28-10-2026 | Backend repository cleanup completed. |
@@ -56,6 +48,11 @@
 | 03-11-2026 | **Unit Testing — Yashoda Kiosks Application Updater Configuration**<br>Validated the updater configuration on the Yashoda kiosks. | Unit Testing | High | Unplanned | 🟢 Completed | 03-11-2026 | Unit testing completed. |
 | 03-11-2026 | **O-Health Website — Analytics Integration and Deployment (Google Analytics 4 and Microsoft Clarity)**<br>Integrated Google Analytics 4 (GA4) and Microsoft Clarity on o-health.in and deployed them to the live site, providing insights into:<br>• Visitor volume.<br>• Visitor location (country and city).<br>• Traffic sources.<br>• On-site user behavior.<br>Both tools load only after the visitor provides cookie consent, and the Privacy Policy was updated accordingly. | Development | High | Unplanned | 🟢 Completed | 03-11-2026 | Consent-based analytics are live on o-health.in. |
 | 03-11-2026 | **Unit Testing — Website Analytics Integration and Deployment (GA4 and Microsoft Clarity)**<br>Validated the GA4 and Microsoft Clarity integration, including consent-based loading, and verified tracking on the live site post-deployment. | Unit Testing | High | Unplanned | 🟢 Completed | 03-11-2026 | GA4 Realtime is recording visits. |
+| 04-11-2026 | **MySQL — Audit Logging Configuration and Deployment**<br>Configured and deployed MySQL audit logging. The configuration is currently under observation before it is promoted to production. | Infrastructure | High | Unplanned | 🟢 Completed | 04-11-2026 | Under observation. Production rollout is tracked under Pending. |
+| 05-11-2026 | **Web Application — Functional Parity with Tauri**<br>Synchronized functionality and defect fixes delivered in the Tauri application that were missing from the web application. | Development | High | Unplanned | 🟢 Completed | 05-11-2026 | The web application is now aligned with the Tauri application. |
+| 05-11-2026 | **Unit Testing — Web Application Functional Parity with Tauri**<br>Validated the synchronized functionality and defect fixes on the web application. | Unit Testing | High | Unplanned | 🟢 Completed | 05-11-2026 | Unit testing completed. |
+| 05-11-2026 | **DEB (Tauri) — Code Optimization**<br>Optimized selected application logic in the Tauri application. | Development | Medium | Unplanned | 🟢 Completed | 05-11-2026 | Code optimization completed. |
+| 05-11-2026 | **Unit Testing — DEB (Tauri) Code Optimization**<br>Performed regression testing following the logic optimization. | Unit Testing | Medium | Unplanned | 🟢 Completed | 05-11-2026 | Unit testing completed. |
 
 ---
 
@@ -75,6 +72,7 @@
 |-------------|------------------|---------------|----------|---------------|--------|--------------------|
 | — | **Yashoda Integration — Final Testing**<br>Conduct final testing upon completion of the integration. | Testing | High | Planned | ⏳ Pending | Dependent on integration completion by Akhil. All deliverables on our side were completed on 05-10-2026. |
 | — | **Direct VAAD Integration (Debian v5.0.3) — Field Testing**<br>Validate the deployed Direct VAAD application in the field. | Testing | High | Unplanned | ⏳ Pending | Version 2 (Debian v5.0.3) was developed, unit-tested and deployed on 01-11-2026. Awaiting field testing results. |
+| — | **MySQL — Audit Logging Production Rollout**<br>Apply the validated MySQL audit logging configuration to the production environment. | Infrastructure | High | Unplanned | ⏳ Pending | Dependent on completion of the observation period. Audit logging was configured and deployed on 04-11-2026. |
 
 #### On Hold
 
@@ -98,7 +96,7 @@
 
 ---
 
-### 🗂️ Completed — Earlier (before 25-10-2026)
+### 🗂️ Completed — Earlier (before 28-10-2026)
 
 | Completed Date | Task Description | Activity Type | Priority | Delivery Type | Status | Target Date | Remarks / Blockers |
 |----------------|------------------|---------------|----------|---------------|--------|-------------|--------------------|
@@ -127,6 +125,14 @@
 | 24-10-2026 | **Web Application — Patient Onboarding UI/UX Enhancements**<br>Enhanced the UI/UX of the patient onboarding flow for all tenants. | Development | Medium | Unplanned | 🟢 Completed | 24-10-2026 | Deployed to production for all tenants. |
 | 24-10-2026 | **Unit Testing — Web Application Patient Onboarding UI/UX**<br>Validated the updated patient onboarding flow across all tenants. | Unit Testing | Medium | Unplanned | 🟢 Completed | 24-10-2026 | Unit testing completed. |
 | 24-10-2026 | **Buffer Assessment Flow — Question Trigger Delay (RCA)**<br>Investigated intermittent delays in question triggering and traced the root cause to duplicate, mismatched entries in the question corpus that triggered dynamic TTS question generation. | Defect Resolution | High | Unplanned | 🟢 Completed | 24-10-2026 | Root cause identified and handed over to Arjun for the corpus fix. |
+| 26-10-2026 | **Web Application — UK Tenant Enablement (Singhal)**<br>Enabled the UK tenant on the web application for Singhal. | Development | High | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed on 26-10-2026. |
+| 26-10-2026 | **Unit Testing — Web Application UK Tenant Enablement (Singhal)**<br>Validated the key user flows, including password reset and acknowledgment. | Unit Testing | High | Unplanned | 🟢 Completed | 26-10-2026 | Password reset and acknowledgment flows verified. |
+| 26-10-2026 | **DEB — Web UI/UX Alignment for Non-VAAD Packages**<br>Applied the web UI/UX changes to the non-VAAD Debian packages (non-RPi and offline variants). | Development | Medium | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed on 30-10-2026. |
+| 26-10-2026 | **Mobile APK — Offline Background Audio Playback**<br>Implemented background audio playback in offline mode for both the RPi and non-RPi APKs. | Development | High | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed on 30-10-2026. |
+| 26-10-2026 | **DGX Offline Server — Audio Synchronization (V23 and V24)**<br>Synchronized the V23 and V24 audio files and uploaded the missing audio assets to the DGX offline server. | Infrastructure | High | Unplanned | 🟢 Completed | 26-10-2026 | V23 and V24 audio assets are now complete on the offline server. |
+| 26-10-2026 | **Mobile APK — Release**<br>• Standard APK: v4.25.0<br>• RPi APK: v4.16.12 | Release & Deployment | High | Unplanned | 🟢 Completed | 26-10-2026 | Released. |
+| 26-10-2026 | **Unit Testing — Mobile APK Release (v4.25.0 / v4.16.12)**<br>Validated the Standard and RPi release builds. | Unit Testing | High | Unplanned | 🟢 Completed | 26-10-2026 | Unit testing completed. |
+| 27-10-2026 | **Website — DPDPA Compliance Updates**<br>Updated the Privacy Policy, Terms of Service and Cookie Management on the website in line with DPDPA requirements. | Documentation & Compliance | High | Planned | 🟢 Completed | 27-10-2026 | The website is now aligned with DPDPA requirements. |
 
 
 ## Siddanth
